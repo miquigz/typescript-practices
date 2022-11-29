@@ -12,7 +12,7 @@ function longestCommonPrefix(strs: string[]): string {
     }
     if (strs.length === 1 && strs[0] === '')
         prefix = '';
-    return prefix || '';
+    return prefix;
 };
 
 console.log(longestCommonPrefix(["flower","flow","flight"]));
